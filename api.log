@@ -1,0 +1,420 @@
+"2018-10-16 17:57:25 [main] INFO  com.nt.boot.GuestBookApplication - Starting GuestBookApplication on F5 with PID 6476 (F:\webapps\eclipse\tool\Guest-Book\target\classes started by SASMITA in F:\webapps\eclipse\tool\Guest-Book)
+""2018-10-16 17:57:25 [main] DEBUG com.nt.boot.GuestBookApplication - Running with Spring Boot v1.5.16.RELEASE, Spring v4.3.19.RELEASE
+""2018-10-16 17:57:25 [main] INFO  com.nt.boot.GuestBookApplication - No active profile set, falling back to default profiles: default
+""2018-10-16 17:57:26 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7ff2a664: startup date [Tue Oct 16 17:57:26 IST 2018]; root of context hierarchy
+""2018-10-16 17:57:30 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ff0e3748] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-10-16 17:57:34 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 5550 (http)
+""2018-10-16 17:57:34 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2018-10-16 17:57:34 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.34
+""2018-10-16 17:57:35 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2018-10-16 17:57:36 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2018-10-16 17:57:36 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2018-10-16 17:57:36 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2018-10-16 17:57:36 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2018-10-16 17:57:36 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2018-10-16 17:57:40 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2018-10-16 17:57:40 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2018-10-16 17:57:41 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+""2018-10-16 17:57:41 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2018-10-16 17:57:41 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+""2018-10-16 17:57:41 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+""2018-10-16 17:57:42 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2018-10-16 17:57:43 [main] INFO  o.h.tool.hbm2ddl.SchemaExport - HHH000227: Running hbm2ddl schema export
+""2018-10-16 17:57:43 [main] INFO  o.h.tool.hbm2ddl.SchemaExport - HHH000230: Schema export complete
+""2018-10-16 17:57:44 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2018-10-16 17:57:46 [main] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+""2018-10-16 17:57:52 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2018-10-16 17:57:54 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 5550 (http)
+""2018-10-16 17:57:54 [main] INFO  com.nt.boot.GuestBookApplication - Started GuestBookApplication in 31.54 seconds (JVM running for 34.703)
+""2018-10-16 18:00:33 [http-nio-5550-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2018-10-16 18:00:34 [http-nio-5550-exec-1] DEBUG c.nt.controller.GuestBookController - data fetched from db on date:Tue Oct 16 18:00:34 IST 2018
+""2018-10-16 18:00:34 [http-nio-5550-exec-1] DEBUG c.nt.controller.GuestBookController - no of guests are:1
+""2018-10-16 18:32:02 [main] INFO  com.nt.boot.GuestBookApplication - Starting GuestBookApplication on F5 with PID 216 (F:\webapps\eclipse\tool\Guest-Book\target\classes started by SASMITA in F:\webapps\eclipse\tool\Guest-Book)
+""2018-10-16 18:32:02 [main] DEBUG com.nt.boot.GuestBookApplication - Running with Spring Boot v1.5.16.RELEASE, Spring v4.3.19.RELEASE
+""2018-10-16 18:32:02 [main] INFO  com.nt.boot.GuestBookApplication - No active profile set, falling back to default profiles: default
+""2018-10-16 18:32:02 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7ff2a664: startup date [Tue Oct 16 18:32:02 IST 2018]; root of context hierarchy
+""2018-10-16 18:32:07 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$42f4199] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-10-16 18:32:13 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 5550 (http)
+""2018-10-16 18:32:13 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2018-10-16 18:32:13 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.34
+""2018-10-16 18:32:15 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2018-10-16 18:32:15 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2018-10-16 18:32:15 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2018-10-16 18:32:15 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2018-10-16 18:32:15 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2018-10-16 18:32:15 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2018-10-16 18:32:17 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2018-10-16 18:32:17 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2018-10-16 18:32:19 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+""2018-10-16 18:32:19 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2018-10-16 18:32:19 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+""2018-10-16 18:32:20 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+""2018-10-16 18:32:23 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2018-10-16 18:32:25 [main] INFO  o.h.tool.hbm2ddl.SchemaExport - HHH000227: Running hbm2ddl schema export
+""2018-10-16 18:32:25 [main] INFO  o.h.tool.hbm2ddl.SchemaExport - HHH000230: Schema export complete
+""2018-10-16 18:32:26 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2018-10-16 18:32:26 [main] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+""2018-10-16 18:32:27 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2018-10-16 18:32:31 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 5550 (http)
+""2018-10-16 18:32:31 [main] INFO  com.nt.boot.GuestBookApplication - Started GuestBookApplication in 34.707 seconds (JVM running for 42.807)
+""2018-10-17 00:23:40 [main] INFO  com.nt.boot.GuestBookApplication - Starting GuestBookApplication on F5 with PID 5208 (F:\webapps\eclipse\tool\Guest-Book\target\classes started by SASMITA in F:\webapps\eclipse\tool\Guest-Book)
+""2018-10-17 00:23:40 [main] DEBUG com.nt.boot.GuestBookApplication - Running with Spring Boot v1.5.16.RELEASE, Spring v4.3.19.RELEASE
+""2018-10-17 00:23:40 [main] INFO  com.nt.boot.GuestBookApplication - No active profile set, falling back to default profiles: default
+""2018-10-17 00:23:41 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7ff2a664: startup date [Wed Oct 17 00:23:41 IST 2018]; root of context hierarchy
+""2018-10-17 00:23:46 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$35247f4d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-10-17 00:24:07 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 5550 (http)
+""2018-10-17 00:24:07 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2018-10-17 00:24:07 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.34
+""2018-10-17 00:24:08 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2018-10-17 00:24:08 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2018-10-17 00:24:08 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2018-10-17 00:24:08 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2018-10-17 00:24:08 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2018-10-17 00:24:08 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2018-10-17 00:24:11 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2018-10-17 00:24:11 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2018-10-17 00:24:11 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+""2018-10-17 00:24:11 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2018-10-17 00:24:11 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+""2018-10-17 00:24:12 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+""2018-10-17 00:24:13 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2018-10-17 00:24:15 [main] INFO  o.h.tool.hbm2ddl.SchemaExport - HHH000227: Running hbm2ddl schema export
+""2018-10-17 00:24:15 [main] INFO  o.h.tool.hbm2ddl.SchemaExport - HHH000230: Schema export complete
+""2018-10-17 00:24:15 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2018-10-17 00:24:17 [main] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+""2018-10-17 00:24:20 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2018-10-17 00:24:23 [main] ERROR o.a.catalina.core.StandardService - Failed to start connector [Connector[HTTP/1.1-5550]]
+"org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-5550]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:265)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:208)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.nt.boot.GuestBookApplication.main(GuestBookApplication.java:21)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1020)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:219)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1151)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:591)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1018)
+	... 14 common frames omitted
+"2018-10-17 00:24:23 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+""2018-10-17 00:24:24 [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+""2018-10-17 00:24:24 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 5550 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 5550, or configure this application to listen on another port.
+
+""2018-10-17 00:24:24 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7ff2a664: startup date [Wed Oct 17 00:23:41 IST 2018]; root of context hierarchy
+""2018-10-17 00:24:24 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+""2018-10-17 00:24:24 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2018-10-17 00:24:24 [main] INFO  o.h.tool.hbm2ddl.SchemaExport - HHH000227: Running hbm2ddl schema export
+""2018-10-17 00:24:24 [main] INFO  o.h.tool.hbm2ddl.SchemaExport - HHH000230: Schema export complete
+""2018-10-17 00:25:27 [main] INFO  com.nt.boot.GuestBookApplication - Starting GuestBookApplication on F5 with PID 7772 (F:\webapps\eclipse\tool\Guest-Book\target\classes started by SASMITA in F:\webapps\eclipse\tool\Guest-Book)
+""2018-10-17 00:25:27 [main] DEBUG com.nt.boot.GuestBookApplication - Running with Spring Boot v1.5.16.RELEASE, Spring v4.3.19.RELEASE
+""2018-10-17 00:25:27 [main] INFO  com.nt.boot.GuestBookApplication - No active profile set, falling back to default profiles: default
+""2018-10-17 00:25:28 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7ff2a664: startup date [Wed Oct 17 00:25:28 IST 2018]; root of context hierarchy
+""2018-10-17 00:25:28 [main] INFO  com.nt.boot.GuestBookApplication - Starting GuestBookApplication on F5 with PID 6708 (F:\webapps\eclipse\tool\Guest-Book\target\classes started by SASMITA in F:\webapps\eclipse\tool\Guest-Book)
+""2018-10-17 00:25:28 [main] DEBUG com.nt.boot.GuestBookApplication - Running with Spring Boot v1.5.16.RELEASE, Spring v4.3.19.RELEASE
+""2018-10-17 00:25:28 [main] INFO  com.nt.boot.GuestBookApplication - No active profile set, falling back to default profiles: default
+""2018-10-17 00:25:28 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7ff2a664: startup date [Wed Oct 17 00:25:28 IST 2018]; root of context hierarchy
+""2018-10-17 00:25:31 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1204698c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-10-17 00:25:32 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$46f6f412] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-10-17 00:25:33 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 5500 (http)
+""2018-10-17 00:25:33 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2018-10-17 00:25:33 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.34
+""2018-10-17 00:25:33 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 5500 (http)
+""2018-10-17 00:25:33 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2018-10-17 00:25:33 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.34
+""2018-10-17 00:25:34 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2018-10-17 00:25:34 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2018-10-17 00:25:34 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2018-10-17 00:25:34 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2018-10-17 00:25:34 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2018-10-17 00:25:34 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2018-10-17 00:25:34 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2018-10-17 00:25:35 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2018-10-17 00:25:35 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2018-10-17 00:25:35 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2018-10-17 00:25:35 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2018-10-17 00:25:35 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2018-10-17 00:25:36 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2018-10-17 00:25:36 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2018-10-17 00:25:36 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+""2018-10-17 00:25:36 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2018-10-17 00:25:36 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+""2018-10-17 00:25:36 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+""2018-10-17 00:25:36 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2018-10-17 00:25:36 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2018-10-17 00:25:36 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+""2018-10-17 00:25:36 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2018-10-17 00:25:36 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+""2018-10-17 00:25:36 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+""2018-10-17 00:25:37 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2018-10-17 00:25:37 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2018-10-17 00:25:39 [main] INFO  o.h.tool.hbm2ddl.SchemaExport - HHH000227: Running hbm2ddl schema export
+""2018-10-17 00:25:39 [main] INFO  o.h.tool.hbm2ddl.SchemaExport - HHH000230: Schema export complete
+""2018-10-17 00:25:39 [main] INFO  o.h.tool.hbm2ddl.SchemaExport - HHH000227: Running hbm2ddl schema export
+""2018-10-17 00:25:40 [main] INFO  o.h.tool.hbm2ddl.SchemaExport - HHH000230: Schema export complete
+""2018-10-17 00:25:40 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2018-10-17 00:25:40 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2018-10-17 00:25:42 [main] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+""2018-10-17 00:25:42 [main] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+""2018-10-17 00:25:56 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2018-10-17 00:25:56 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2018-10-17 00:25:56 [main] ERROR o.a.catalina.core.StandardService - Failed to start connector [Connector[HTTP/1.1-5500]]
+"org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-5500]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:265)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:208)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.nt.boot.GuestBookApplication.main(GuestBookApplication.java:21)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1020)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:219)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1151)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:591)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1018)
+	... 14 common frames omitted
+"2018-10-17 00:25:56 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+""2018-10-17 00:25:56 [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+""2018-10-17 00:25:56 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 5500 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 5500, or configure this application to listen on another port.
+
+""2018-10-17 00:25:56 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7ff2a664: startup date [Wed Oct 17 00:25:28 IST 2018]; root of context hierarchy
+""2018-10-17 00:25:56 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+""2018-10-17 00:25:56 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+""2018-10-17 00:25:56 [main] INFO  o.h.tool.hbm2ddl.SchemaExport - HHH000227: Running hbm2ddl schema export
+""2018-10-17 00:25:56 [main] INFO  o.h.tool.hbm2ddl.SchemaExport - HHH000230: Schema export complete
+""2018-10-17 00:25:56 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 5500 (http)
+""2018-10-17 00:25:56 [main] INFO  com.nt.boot.GuestBookApplication - Started GuestBookApplication in 30.156 seconds (JVM running for 32.099)
+""2018-10-17 00:27:59 [http-nio-5500-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2018-10-17 00:33:48 [main] INFO  com.nt.boot.GuestBookApplication - Starting GuestBookApplication on F5 with PID 1084 (F:\webapps\eclipse\tool\Guest-Book\target\classes started by SASMITA in F:\webapps\eclipse\tool\Guest-Book)
+""2018-10-17 00:33:48 [main] DEBUG com.nt.boot.GuestBookApplication - Running with Spring Boot v1.5.16.RELEASE, Spring v4.3.19.RELEASE
+""2018-10-17 00:33:48 [main] INFO  com.nt.boot.GuestBookApplication - No active profile set, falling back to default profiles: default
+""2018-10-17 00:33:48 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7ff2a664: startup date [Wed Oct 17 00:33:48 IST 2018]; root of context hierarchy
+""2018-10-17 00:33:52 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fe06d3ce] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-10-17 00:33:53 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 5500 (http)
+""2018-10-17 00:33:53 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2018-10-17 00:33:53 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.34
+""2018-10-17 00:33:53 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2018-10-17 00:33:53 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2018-10-17 00:33:53 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2018-10-17 00:33:53 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2018-10-17 00:33:53 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2018-10-17 00:33:53 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2018-10-17 00:33:54 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2018-10-17 00:33:54 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2018-10-17 00:33:54 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+""2018-10-17 00:33:54 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2018-10-17 00:33:54 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+""2018-10-17 00:33:54 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+""2018-10-17 00:33:55 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2018-10-17 00:33:56 [main] INFO  o.h.tool.hbm2ddl.SchemaExport - HHH000227: Running hbm2ddl schema export
+""2018-10-17 00:33:56 [main] INFO  o.h.tool.hbm2ddl.SchemaExport - HHH000230: Schema export complete
+""2018-10-17 00:33:57 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2018-10-17 00:33:58 [main] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+""2018-10-17 00:34:00 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2018-10-17 00:34:00 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 5500 (http)
+""2018-10-17 00:34:00 [main] INFO  com.nt.boot.GuestBookApplication - Started GuestBookApplication in 13.893 seconds (JVM running for 15.469)
+""2018-10-17 00:34:17 [http-nio-5500-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2018-10-17 00:43:58 [main] INFO  com.nt.boot.GuestBookApplication - Starting GuestBookApplication on F5 with PID 7188 (F:\webapps\eclipse\tool\Guest-Book\target\classes started by SASMITA in F:\webapps\eclipse\tool\Guest-Book)
+""2018-10-17 00:43:58 [main] DEBUG com.nt.boot.GuestBookApplication - Running with Spring Boot v1.5.16.RELEASE, Spring v4.3.19.RELEASE
+""2018-10-17 00:43:58 [main] INFO  com.nt.boot.GuestBookApplication - No active profile set, falling back to default profiles: default
+""2018-10-17 00:43:58 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7ff2a664: startup date [Wed Oct 17 00:43:58 IST 2018]; root of context hierarchy
+""2018-10-17 00:44:01 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f7a38d84] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-10-17 00:44:02 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 5500 (http)
+""2018-10-17 00:44:02 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2018-10-17 00:44:02 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.34
+""2018-10-17 00:44:02 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2018-10-17 00:44:02 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2018-10-17 00:44:02 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2018-10-17 00:44:02 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2018-10-17 00:44:02 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2018-10-17 00:44:02 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2018-10-17 00:44:03 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2018-10-17 00:44:03 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2018-10-17 00:44:03 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+""2018-10-17 00:44:03 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2018-10-17 00:44:03 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+""2018-10-17 00:44:03 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+""2018-10-17 00:44:04 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2018-10-17 00:44:05 [main] INFO  o.h.tool.hbm2ddl.SchemaExport - HHH000227: Running hbm2ddl schema export
+""2018-10-17 00:44:05 [main] INFO  o.h.tool.hbm2ddl.SchemaExport - HHH000230: Schema export complete
+""2018-10-17 00:44:05 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2018-10-17 00:44:06 [main] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+""2018-10-17 00:44:08 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2018-10-17 00:44:09 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 5500 (http)
+""2018-10-17 00:44:09 [main] INFO  com.nt.boot.GuestBookApplication - Started GuestBookApplication in 11.635 seconds (JVM running for 13.273)
+""2018-10-17 00:44:38 [http-nio-5500-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2018-10-17 00:49:16 [main] INFO  com.nt.boot.GuestBookApplication - Starting GuestBookApplication on F5 with PID 7884 (F:\webapps\eclipse\tool\Guest-Book\target\classes started by SASMITA in F:\webapps\eclipse\tool\Guest-Book)
+""2018-10-17 00:49:16 [main] DEBUG com.nt.boot.GuestBookApplication - Running with Spring Boot v1.5.16.RELEASE, Spring v4.3.19.RELEASE
+""2018-10-17 00:49:16 [main] INFO  com.nt.boot.GuestBookApplication - No active profile set, falling back to default profiles: default
+""2018-10-17 00:49:16 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7ff2a664: startup date [Wed Oct 17 00:49:16 IST 2018]; root of context hierarchy
+""2018-10-17 00:49:20 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$99e022c9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-10-17 00:49:21 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 5500 (http)
+""2018-10-17 00:49:21 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2018-10-17 00:49:21 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.34
+""2018-10-17 00:49:21 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2018-10-17 00:49:21 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2018-10-17 00:49:21 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2018-10-17 00:49:21 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2018-10-17 00:49:21 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2018-10-17 00:49:21 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2018-10-17 00:49:22 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2018-10-17 00:49:22 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2018-10-17 00:49:22 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+""2018-10-17 00:49:22 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2018-10-17 00:49:22 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+""2018-10-17 00:49:22 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+""2018-10-17 00:49:23 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2018-10-17 00:49:23 [main] INFO  o.h.tool.hbm2ddl.SchemaExport - HHH000227: Running hbm2ddl schema export
+""2018-10-17 00:49:23 [main] INFO  o.h.tool.hbm2ddl.SchemaExport - HHH000230: Schema export complete
+""2018-10-17 00:49:23 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2018-10-17 00:49:24 [main] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+""2018-10-17 00:49:25 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2018-10-17 00:49:25 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 5500 (http)
+""2018-10-17 00:49:25 [main] INFO  com.nt.boot.GuestBookApplication - Started GuestBookApplication in 10.551 seconds (JVM running for 12.026)
+""2018-10-17 00:50:02 [http-nio-5500-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2018-10-17 00:53:37 [http-nio-5500-exec-2] DEBUG c.nt.controller.GuestBookController - data fetched from db on date:Wed Oct 17 00:53:37 IST 2018
+""2018-10-17 00:53:37 [http-nio-5500-exec-2] DEBUG c.nt.controller.GuestBookController - no of guests are:3
+""2018-10-17 00:56:05 [main] INFO  com.nt.boot.GuestBookApplication - Starting GuestBookApplication on F5 with PID 3308 (F:\webapps\eclipse\tool\Guest-Book\target\classes started by SASMITA in F:\webapps\eclipse\tool\Guest-Book)
+""2018-10-17 00:56:05 [main] DEBUG com.nt.boot.GuestBookApplication - Running with Spring Boot v1.5.16.RELEASE, Spring v4.3.19.RELEASE
+""2018-10-17 00:56:05 [main] INFO  com.nt.boot.GuestBookApplication - No active profile set, falling back to default profiles: default
+""2018-10-17 00:56:05 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7ff2a664: startup date [Wed Oct 17 00:56:05 IST 2018]; root of context hierarchy
+""2018-10-17 00:56:09 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$35247f4d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-10-17 00:56:10 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 5500 (http)
+""2018-10-17 00:56:10 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2018-10-17 00:56:10 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.34
+""2018-10-17 00:56:10 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2018-10-17 00:56:10 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2018-10-17 00:56:10 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2018-10-17 00:56:10 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2018-10-17 00:56:10 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2018-10-17 00:56:10 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2018-10-17 00:56:11 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2018-10-17 00:56:11 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2018-10-17 00:56:11 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+""2018-10-17 00:56:11 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2018-10-17 00:56:11 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+""2018-10-17 00:56:11 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+""2018-10-17 00:56:11 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2018-10-17 00:56:12 [main] INFO  o.h.tool.hbm2ddl.SchemaExport - HHH000227: Running hbm2ddl schema export
+""2018-10-17 00:56:12 [main] INFO  o.h.tool.hbm2ddl.SchemaExport - HHH000230: Schema export complete
+""2018-10-17 00:56:12 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2018-10-17 00:56:13 [main] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+""2018-10-17 00:56:16 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2018-10-17 00:56:16 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 5500 (http)
+""2018-10-17 00:56:16 [main] INFO  com.nt.boot.GuestBookApplication - Started GuestBookApplication in 12.025 seconds (JVM running for 13.344)
+""2018-10-17 00:56:25 [http-nio-5500-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2018-10-17 00:59:27 [main] INFO  com.nt.boot.GuestBookApplication - Starting GuestBookApplication on F5 with PID 5816 (F:\webapps\eclipse\tool\Guest-Book\target\classes started by SASMITA in F:\webapps\eclipse\tool\Guest-Book)
+""2018-10-17 00:59:27 [main] DEBUG com.nt.boot.GuestBookApplication - Running with Spring Boot v1.5.16.RELEASE, Spring v4.3.19.RELEASE
+""2018-10-17 00:59:27 [main] INFO  com.nt.boot.GuestBookApplication - No active profile set, falling back to default profiles: default
+""2018-10-17 00:59:27 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7ff2a664: startup date [Wed Oct 17 00:59:27 IST 2018]; root of context hierarchy
+""2018-10-17 00:59:30 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6fa95fcb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+""2018-10-17 00:59:31 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 5500 (http)
+""2018-10-17 00:59:31 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2018-10-17 00:59:31 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.34
+""2018-10-17 00:59:32 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2018-10-17 00:59:32 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+""2018-10-17 00:59:32 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+""2018-10-17 00:59:32 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+""2018-10-17 00:59:32 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+""2018-10-17 00:59:32 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+""2018-10-17 00:59:33 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+""2018-10-17 00:59:33 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+""2018-10-17 00:59:33 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.0.12.Final}
+""2018-10-17 00:59:33 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+""2018-10-17 00:59:33 [main] INFO  org.hibernate.cfg.Environment - HHH000021: Bytecode provider name : javassist
+""2018-10-17 00:59:33 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+""2018-10-17 00:59:33 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+""2018-10-17 00:59:34 [main] INFO  o.h.tool.hbm2ddl.SchemaExport - HHH000227: Running hbm2ddl schema export
+""2018-10-17 00:59:34 [main] INFO  o.h.tool.hbm2ddl.SchemaExport - HHH000230: Schema export complete
+""2018-10-17 00:59:35 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2018-10-17 00:59:36 [main] INFO  o.h.h.i.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+""2018-10-17 00:59:38 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+""2018-10-17 00:59:38 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 5500 (http)
+""2018-10-17 00:59:38 [main] INFO  com.nt.boot.GuestBookApplication - Started GuestBookApplication in 12.846 seconds (JVM running for 14.331)
+""2018-10-17 00:59:58 [http-nio-5500-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+""2018-10-17 01:01:35 [http-nio-5500-exec-9] DEBUG c.nt.controller.GuestBookController - data fetched from db on date:Wed Oct 17 01:01:35 IST 2018
+""2018-10-17 01:01:35 [http-nio-5500-exec-9] DEBUG c.nt.controller.GuestBookController - no of guests are:3
+""2018-10-17 01:02:51 [http-nio-5500-exec-5] DEBUG c.nt.controller.GuestBookController - data fetched from db on date:Wed Oct 17 01:02:51 IST 2018
+""2018-10-17 01:02:51 [http-nio-5500-exec-5] DEBUG c.nt.controller.GuestBookController - no of guests are:2
+"
